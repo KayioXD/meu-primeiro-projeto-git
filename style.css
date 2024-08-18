@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-bottom: 195px;
+}
+
+div {
+    display: inline-block;
+}
+
+img {
+    width: 534px;
+    height: 467px;
+    margin-left: 121px;
+    margin-right: 85px;
+}
+
+h1 {
+    width: 582px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: #161a49;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 47px;
+}
+
+p {
+    width: 493px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #4b505a;
+    margin-bottom: 55px;
+}
+
+.ancora-header {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233d;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #6fbf44;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-main {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6fbf44;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        text-align: end;
+        margin-right: 15px;
+    }
+
+    img {
+        width: 280px;
+        height: 268px;
+    }
+
+    h1 {
+        width: 278px;
+        margin-bottom: 29px;
+    }
+
+    p {
+        width: 304px;
+        margin-bottom: 26px;
+    }
+
+    div {
+        position: fixed;
+        left: 40%;
+        bottom: 35%;
+    }
+
+    .ancora-header {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+    }
+
+    .button-main {
+        font-size: 18px;
+    }
+
+    .div-img {
+        position: fixed;
+        bottom: 23px;
+        left: 20%;
+    }
+}
